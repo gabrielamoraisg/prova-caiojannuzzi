@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --main-color: #23261D;
+    --cor1: #3E4034;
+    --cor2: #8C857B;
+    --cor3: #A69E94;
+    --cor4: #0D0D0D;
+    --cor5: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1500px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container section {
+    background-color: var(--cor4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navbar {
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+}
+
+.navbar a {
+    margin: 0 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--cor3);
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.icons {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(assets/home-img.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--cor1);
+    text-align: justify;
+}
+
+.home-container section {
+    justify-content: center;
+    max-width: 100vh;
+}
+
+.home-container h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.about h2 {
+    font-size: 35px;
+    color: var(--main-color);
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about span {
+    color: var(--cor1);
+}
+
+.about img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about-text {
+    display: inline;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 0;
+}
+
+.about-text h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: var(--cor4);
+}
+
+.about-text p {
+    padding-right: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.row {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: var(--cor5);
+}
+
+.btn-about {
+    font-size: 16px;
+    border: 2px solid var(--cor4);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--cor4);
+    cursor: pointer;
+}
+
+.new {
+    min-height: 70vh;
+    margin: 0 20px 20px 30px;
+}
+
+.new-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.new h1 {     
+    text-align: center;
+    font-size: 35px;
+    color: var(--cor1);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.btn-new {
+    font-size: 15px;
+    border: 2px solid var(--cor4);
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.img-new {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.img-mid {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: auto;
+}
+
+.newsletter {
+    text-align: center;
+    height: 230px;
+    background-color: var(--main-color);
+}
+
+.newsletter h3 {
+    font-size: 20px;
+    color: var(--cor5);
+}
+
+.newsletter p {
+    color: var(--cor3);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0 5px 0;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-group input {
+    padding: 10px;
+    width: 30%;
+    border: 2px solid var(--cor2);
+    border-radius: 10px;
+}
+
+.btn-newsletter {
+    font-size: 16px;
+    border: 2px solid var(--cor3);
+    border-radius: 5px;
+    padding: 8px;
+    color: #fff;
+    background-color: var(--cor3);
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+footer h5 {
+    font-size: 15px;
+}
+
+footer a {
+    display: flex;
+    color: var(--cor1);
+}
